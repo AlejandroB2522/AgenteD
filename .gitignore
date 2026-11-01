@@ -1,0 +1,19 @@
+# Clave de la API y configuración local
+.env
+
+# Entornos virtuales de Python
+venv/
+.venv/
+env/
+
+# Archivos de trabajo del docente (no versionar)
+entrada/*
+!entrada/.gitkeep
+salida/*
+!salida/.gitkeep
+revision/*.json
+
+# Caché de Python
+__pycache__/
+*.pyc
+.pytest_cache/

@@ -1,0 +1,11 @@
+# Agente de jornalización - dependencias
+anthropic>=2.0         # cliente de la API de Claude (necesita .messages.parse con output_format)
+python-docx>=1.1      # leer y escribir documentos Word (.docx)
+openpyxl>=3.1         # leer hojas de cálculo (.xlsx)
+pdfplumber>=0.11      # leer PDF
+pydantic>=2.0         # validar la estructura de los datos extraídos
+python-dotenv>=1.0    # cargar la clave de la API desde el archivo .env
+streamlit>=1.38       # interfaz web local (app.py)
+
+# Para las pruebas (opcional)
+pytest>=8.0
